@@ -19,6 +19,7 @@ if [ -d ${OPENSHIFT_REPO_DIR}php ]; then
   if [ -f $OPENSHIFT_REPO_DIR/php/config/autoconfig.php ]
   then
     cp $OPENSHIFT_REPO_DIR/php/config/autoconfig.php $dest_dir/config
+    cp -r $OPENSHIFT_REPO_DIR/php/apps/* $dest_dir/apps/.
   fi
   rm -rf ${OPENSHIFT_REPO_DIR}php
 fi
