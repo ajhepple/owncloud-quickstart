@@ -1,0 +1,3 @@
+[submodule "php/apps/grauphel"]
+	path = php/apps/grauphel
+	url = https://github.com/cweiske/grauphel.git
