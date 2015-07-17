@@ -1,6 +1,6 @@
 [submodule "php/apps/grauphel"]
 	path = php/apps/grauphel
 	url = https://github.com/cweiske/grauphel.git
-[submodule "grauphel"]
-	path = grauphel
-	url = https://github.com/cweiske/grauphel.git
+[submodule "php/apps/files_gpxviewer_extended"]
+	path = php/apps/files_gpxviewer_extended
+	url = https://github.com/Frank1604/files_gpxviewer_extended.git
