@@ -16,11 +16,11 @@ and set them up.
 
 Create a PHP application with database and cron cartridges:
 
-	rhc app create owncloud php-5.4 postgresql-9.2 cron-1.4 --from-code https://github.com/ajhepple/owncloud-quickstart.git
+	$ rhc app create owncloud php-5.4 postgresql-9.2 cron-1.4 --from-code https://github.com/ajhepple/owncloud-quickstart.git
 
 Head to your application at:
 
-	http://owncloud-$yourdomain.rhcloud.com
+	http://owncloud-yourdomain.rhcloud.com
 
 Default Credentials
 -------------------
@@ -33,7 +33,7 @@ visit http://owncloud.org/install/#install-clients
 
 To give your new ownCloud site a web address of its own, add your desired alias:
 
-  rhc add alias owncloud your.domain.com
+    $ rhc add alias owncloud your.domain.com
 
 Then add a cname entry in your domain's dns configuration pointing your alias
 to owncloud-domain.rhcloud.com
@@ -48,3 +48,10 @@ synchronisation server. It depends upon the oauth PHP extension which,
 at the time of writing, is not available as a PEAR package and therefore
 not available OpenShift via its standard PHP cartridges. Consequently,
 *this app is broken in this quickstarter*.
+
+### GPX Viewer
+
+A GPX file viewer is provided by
+[files_gpx_viewer](https://github.com/Frank1604/files_gpxviewer_extended)
+which appears to be a maintained fork of another similar
+[plugin](https://github.com/Restless123/Owncloud-GPXviewer).
