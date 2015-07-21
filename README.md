@@ -33,7 +33,7 @@ visit http://owncloud.org/install/#install-clients
 
 To give your new ownCloud site a web address of its own, add your desired alias:
 
-    $ rhc add alias owncloud your.domain.com
+    $ rhc alias-add owncloud your.domain.com
 
 Then add a cname entry in your domain's dns configuration pointing your alias
 to owncloud-domain.rhcloud.com
