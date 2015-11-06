@@ -43,11 +43,11 @@ Apps
 
 ### Grauphel
 
-[Grauphel](https://github.com/dweiske/grauphel) is a Tomboy notes 
+[Grauphel](https://github.com/cweiske/grauphel) is a Tomboy notes 
 synchronisation server. It depends upon the oauth PHP extension which,
 at the time of writing, is not available as a PEAR package and therefore
 not available OpenShift via its standard PHP cartridges. Consequently,
-*this app is broken in this quickstarter*.
+*the app is broken in this quickstarter*.
 
 ### GPX Viewer
 
