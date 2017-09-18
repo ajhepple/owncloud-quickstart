@@ -33,11 +33,7 @@ visit http://owncloud.org/install/#install-clients
 
 To give your new ownCloud site a web address of its own, add your desired alias:
 
-<<<<<<< 1496e66c8cdd86ce0d419d8ed72734fb7de30191
-    $ rhc alias-add owncloud your.domain.com
-=======
-    rhc add alias owncloud your.domain.com
->>>>>>> Update README with quota issue
+    $ rhc alias add owncloud your.domain.com
 
 Then add a cname entry in your domain's dns configuration pointing your alias
 to owncloud-domain.rhcloud.com
@@ -51,7 +47,6 @@ Apps
 synchronisation server. It depends upon the oauth PHP extension which,
 at the time of writing, is not available as a PEAR package and therefore
 not available OpenShift via its standard PHP cartridges. Consequently,
-<<<<<<< 1496e66c8cdd86ce0d419d8ed72734fb7de30191
 *the app is broken in this quickstarter*.
 
 ### GPX Viewer
@@ -60,7 +55,6 @@ A GPX file viewer is provided by
 [files_gpx_viewer](https://github.com/Frank1604/files_gpxviewer_extended)
 which appears to be a maintained fork of another similar
 [plugin](https://github.com/Restless123/Owncloud-GPXviewer).
-*this app is broken in this quickstarter*.
 
 Issues
 ------
