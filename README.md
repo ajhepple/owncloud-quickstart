@@ -1,3 +1,5 @@
+RedHat no longer support quickstarts of this type. If anyone knows of a quickstart for the OwnCloud 10.x.x on OpenShift Online then please do share.
+
 OpenShift quickstarter for [OwnCloud](http://owncloud.org) with custom apps
 ===========================================================================
 
@@ -16,7 +18,7 @@ and set them up.
 
 Create a PHP application with database and cron cartridges:
 
-	$ rhc app create owncloud php-5.4 postgresql-9.2 cron-1.4 --from-code https://github.com/ajhepple/owncloud-quickstart.git
+	$ rhc create-app owncloud php-5.4 postgresql-9.2 cron-1.4 --from-code https://github.com/ajhepple/owncloud-quickstart.git
 
 Head to your application at:
 
